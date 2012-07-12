@@ -1,4 +1,6 @@
-first = ARGV.first
+#The error here was the first argument needed to be turned into an integer.
+
+first = ARGV.first.to_i
 
 def generate(n)
 	return [] if n == 1
